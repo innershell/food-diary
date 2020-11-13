@@ -1,29 +1,49 @@
 <template>
   <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
   <div class="user-profile">
+      
+      <!-- The side panel for this user. -->
       <div class="user-profile__user-panel">
-        <p>Welcome {{ user.username }} - {{ fullName }}</p>
-        <p># of patients {{ patients }}</p>
+        <p>Welcome {{ fullName }} ({{ user.username }})</p>
+        <p>Admin? <span v-if="user.isAdmin">Yes</span><span v-else>False</span></p>
+        <p># patients: {{ patients }}</p>
         <button @click="addPatient">Add Patient</button>
+      </div>
+
+      <!-- The food diary entries of this user. -->
+      <div class="user-profile__entry-wrapper">
+        <DiaryEntry v-for="entry in user.entries" 
+          :key="entry.id" 
+          :username="user.username" 
+          :entry="entry" 
+          @favourite="toggleFavourite"/>
       </div>
 
   </div>
 </template>
 
 <script>
+import DiaryEntry from "./DiaryEntry";
+
 
 export default {
   name: 'Patient',
+  components: { DiaryEntry },
   data() {
     return {
       patients: 0,
       user: {
         id: 0,
-        username: '@mtan',
+        username: 'mtan',
         firstName: 'Melvin',
         lastName: 'Tan',
         email: 'melvin@windwake.io',
-        isAdmin: true
+        isAdmin: true,
+        entries: [ 
+          { id: 1, day: 1, meal: 1, calories: 1, food: "bagel", time:"7:00am" },
+          { id: 2, day: 1, meal: 1, calories: 2, food: "coffee w/cream", time:"7:30am" },
+          { id: 3, day: 1, meal: 2, calories: 2, food: "Ham Sandwich", time:"1:30pm"  }
+        ]
       }
     }
   },
@@ -42,6 +62,9 @@ export default {
   methods: {
     addPatient() {
       this.patients++
+    },
+    toggleFavourite(id) {
+      console.log(`Favourited food entry ${id}`)
     }
   },
   mounted() {
