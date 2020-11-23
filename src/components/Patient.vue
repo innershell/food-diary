@@ -8,7 +8,32 @@
         <p>Admin? <span v-if="user.isAdmin">Yes</span><span v-else>False</span></p>
         <p># patients: {{ patients }}</p>
         <button @click="addPatient">Add Patient</button>
+
+        <form class="user-profile__create-twoot" @submit.prevent="createNewToot">
+          <label for="newTwoot"><strong>New Twoots</strong></label>
+          <textarea id="newTwoot" rows="4" v-model="newTwootContent"/>
+          <button>Twoot!!</button>
+        </form>
+
+          <div class="user-profile__create-twoot-type">
+            <label for="newTwootType"><strong>Type: </strong></label>
+            <select id="newTwootType" v-model="newTwootType">
+              <option :value="option.value" v-for="option in twootTypes" :key="option.value">
+                {{ option.name }}
+              </option>
+            </select>
+          </div>
+
+        <div>
+          <label>Input:</label><span>{{ newTwootContent }}</span>
+        </div>
+
+
+
+
       </div>
+
+
 
       <!-- The food diary entries of this user. -->
       <div class="user-profile__entry-wrapper">
@@ -31,6 +56,12 @@ export default {
   components: { DiaryEntry },
   data() {
     return {
+      newTwootContent: '',
+      selectedTwootType: 'instant',
+      twootTypes: [
+        { value: 'draft', name: 'Draft' },
+        { value: 'instant', name: 'Instant Twoot' }
+      ],
       patients: 0,
       user: {
         id: 0,
@@ -65,6 +96,20 @@ export default {
     },
     toggleFavourite(id) {
       console.log(`Favourited food entry ${id}`)
+    },
+    createNewToot() {
+      if (this.newTwootContent && this.selectedTwootType !== 'draft') {
+        this.user.entries.unshift(
+          {
+            id: this.user.entries.length + 1,
+            day: 2, 
+            meal: 4, 
+            calories: 5, 
+            food: this.newTwootContent, 
+            time:"18:00"
+          }
+        )
+      }
     }
   },
   mounted() {
@@ -101,5 +146,12 @@ export default {
     background-color: white;
     border-radius: 5px;
     border: 1px solid #DFE3E8;
+}
+
+.user-profile__create-twoot {
+  margin-top: 20px;
+  border-top: 1px solid black;
+  display: flex;
+  flex-direction: column;
 }
 </style>
