@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="400"
+   height="400"
+   viewBox="0 0 105.83333 105.83334"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91+devel+osxmenu r12922"
+   sodipodi:docname="WindWake Logo.svg"
+   inkscape:export-filename="/Users/melvin/Downloads/WindWake Logo-400x400-TransparentBackground"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="186"
+     inkscape:cy="196.36364"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g4284"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1680"
+     inkscape:window-height="965"
+     inkscape:window-x="0"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Dark Background"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <rect
+       style="fill:#333333;fill-opacity:1;stroke-width:1.52392578"
+       id="rect4188"
+       width="105.83334"
+       height="105.83334"
+       x="-5.0862632e-06"
+       y="-5.0862632e-06" />
+  </g>
+  <g
+     style="display:none"
+     inkscape:label="Logo 1"
+     inkscape:groupmode="layer"
+     id="g4284"
+     transform="translate(0,-191.16665)"
+     sodipodi:insensitive="true">
+    <rect
+       style="fill:#e6e6e6;fill-rule:evenodd;stroke:none;stroke-width:0.29160267px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="rect4286"
+       width="19.314583"
+       height="74.560448"
+       x="-51.832527"
+       y="215.60023"
+       transform="matrix(1,0,0.26146751,0.96521228,0,0)" />
+    <rect
+       style="fill:#e6e6e6;fill-rule:evenodd;stroke:none;stroke-width:0.29160267px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="rect4288"
+       width="19.314583"
+       height="74.560448"
+       x="-13.071066"
+       y="215.60023"
+       transform="matrix(1,0,0.26146751,0.96521228,0,0)" />
+    <rect
+       style="opacity:0.8;fill:#0b8fff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.29160267px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="rect4290"
+       width="19.314583"
+       height="74.560448"
+       x="-157.97871"
+       y="215.60023"
+       transform="matrix(-1,0,-0.26146751,0.96521228,0,0)" />
+    <rect
+       style="opacity:0.8;fill:#0b8fff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.29160267px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="rect4292"
+       width="19.314583"
+       height="74.560448"
+       x="-118.98846"
+       y="215.60023"
+       transform="matrix(-1,0,-0.26146751,0.96521228,0,0)" />
+  </g>
+  <g
+     style="display:none"
+     inkscape:label="White Background"
+     id="g4244"
+     inkscape:groupmode="layer"
+     sodipodi:insensitive="true">
+    <rect
+       y="-5.0862632e-06"
+       x="-5.0862632e-06"
+       height="105.83334"
+       width="105.83334"
+       id="rect4246"
+       style="fill:#ffffff;fill-opacity:1;stroke-width:1.52392578" />
+  </g>
+  <g
+     transform="translate(0,-191.16665)"
+     id="g4248"
+     inkscape:groupmode="layer"
+     inkscape:label="Logo 2"
+     style="display:inline">
+    <rect
+       transform="matrix(1,0,0.26146751,0.96521228,0,0)"
+       y="215.60023"
+       x="-51.832527"
+       height="74.560448"
+       width="19.314583"
+       id="rect4250"
+       style="fill:#333333;fill-rule:evenodd;stroke:none;stroke-width:0.29160267px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <rect
+       transform="matrix(1,0,0.26146751,0.96521228,0,0)"
+       y="215.60023"
+       x="-13.071066"
+       height="74.560448"
+       width="19.314583"
+       id="rect4252"
+       style="fill:#333333;fill-rule:evenodd;stroke:none;stroke-width:0.29160267px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <rect
+       transform="matrix(-1,0,-0.26146751,0.96521228,0,0)"
+       y="215.60023"
+       x="-157.97871"
+       height="74.560448"
+       width="19.314583"
+       id="rect4254"
+       style="opacity:0.8;fill:#0b8fff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.29160267px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <rect
+       transform="matrix(-1,0,-0.26146751,0.96521228,0,0)"
+       y="215.60023"
+       x="-118.98846"
+       height="74.560448"
+       width="19.314583"
+       id="rect4256"
+       style="opacity:0.8;fill:#0b8fff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.29160267px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+</svg>

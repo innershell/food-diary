@@ -1,15 +1,15 @@
 <template>
   <div id="app">
-    <Patient/>
+    <Login/>
   </div>
 </template>
 
 <script>
-import Patient from "./components/Patient";
+import Login from "./components/Login";
 
 export default {
   name: 'App',
-  components: { Patient }
+  components: { Login }
 }
 </script>
 
@@ -21,6 +21,6 @@ export default {
   color: #2c3e50;
   display: flex;
   min-height: 100vh;
-  background-color: #F3F5FA;
+  /* background-color: #F3F5FA; */
 }
 </style>
