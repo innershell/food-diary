@@ -1,19 +1,12 @@
 <template>
-  <div id="login">
     
     <!-- The login panel. -->
     <div class="login-panel">
-    
       <div class="login-panel__logo"><img width="75" alt="Vue logo" src="../assets/logo.svg"></div>
-      <div class="login-panel__instructions"><p>Please enter your email address.</p></div>
-      <div>
-        <form @submit.prevent="authenticate">
-          <div class="login-panel__email-field"><input id="login_email" v-model="newTwootContent"/></div>
-          <div class="login-panel__continue-button"><button>Continue</button></div>
-        </form>
-      </div>
+      <div class="login-panel__instructions"><p>Login link sent to confirm its really you.</p></div>
+      <div><a href="">Didn't get a link?</a></div>
+      <div> <router-link to="/">Didn't get a link?</router-link></div>
     </div>
-  </div>
 </template>
 
 <script>

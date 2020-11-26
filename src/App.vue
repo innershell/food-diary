@@ -1,15 +1,20 @@
 <template>
   <div id="app">
-    <Login/>
+    <ul>
+      <li><router-link to="/">Home</router-link></li>
+      <li><router-link to="/Auth">Auth</router-link></li>
+    </ul>
+    <!-- <Login/> -->
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import Login from "./components/Login";
+// import Login from "./components/Login";
 
 export default {
   name: 'App',
-  components: { Login }
+  components: {  }
 }
 </script>
 
