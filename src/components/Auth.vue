@@ -1,16 +1,12 @@
 <template>
-    
-    <!-- The login panel. -->
     <div class="login-panel">
       <div class="login-panel__logo"><img width="75" alt="Vue logo" src="../assets/logo.svg"></div>
       <div class="login-panel__instructions"><p>Login link sent to confirm its really you.</p></div>
-      <div><a href="">Didn't get a link?</a></div>
       <div> <router-link to="/">Didn't get a link?</router-link></div>
     </div>
 </template>
 
 <script>
-
 export default {
   name: 'Login',
   // components: { },
@@ -39,7 +35,6 @@ export default {
 </script>
 
 <style>
-
 .login-panel {
   display: grid;
   grid-template-columns: auto;
@@ -68,5 +63,4 @@ export default {
 .login-panel__continue-button {
   text-align: center;
 }
-
 </style>
