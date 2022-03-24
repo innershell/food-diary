@@ -1,6 +1,5 @@
 # Physician Food Diary
-This web app lets physicians order a food diary requisition for a patient. 
-![Food Diary Screenshot](/Food%20Diary.png)
+This web app lets physicians order a food diary requisition for a patient.  
 
 # How it Works
 1. A physician orders a food diary for his/her patient. The requisition may specify a 3, 5, or 7-day food diary.
@@ -8,6 +7,9 @@ This web app lets physicians order a food diary requisition for a patient.
 3. The patient may receive email reminders 3x per day during normal meal times as reminder.
 4. The physician recieves a summary of each day with the patient's meal journal, calorie intake, and total calories during the prescribed period.
 5. The physician uses this information for further patient health guidance.
+
+
+![Food Diary Screenshot](/src/assets/food-diary-screen.png)
 
 # Setting Up Project
 - `npm install`
